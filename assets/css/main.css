@@ -24,9 +24,6 @@ body {
 
 .app_wrap {
     height: 100%;
-}
-
-.app_wrap.scroll {
     overflow-y: scroll;
 }
 
