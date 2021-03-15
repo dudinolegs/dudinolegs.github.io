@@ -235,7 +235,7 @@ h1 {
     background: white;
     padding: 30px;
     border-radius: 15px 15px 0 0;
-    max-height: calc(100% - 80px);
+    max-height: calc(100% - 70px);
     position: relative;
 }
 
@@ -511,6 +511,11 @@ h1 {
         padding: 0 10px;
     }
 
+    .filter_value .btn.active:after {
+        left: 8px;
+        top: 8px;
+    }
+
     .product.list .product_item {
         padding: 10px;
     }
@@ -570,11 +575,6 @@ h1 {
 
     .filter_group {
         padding: 10px 0;
-    }
-
-    .filter_value .btn.active:after {
-        left: 13px;
-        top: 8px;
     }
 }
 
